@@ -1,0 +1,49 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #f7f7f9 !important;
+    margin-bottom: 60px;
+}
+
+body > .container {
+    padding-top: 30px;
+}
+
+body > .container h1 {
+    margin-bottom: 20px;
+}
+
+body > .container p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 18px 0px;
+}
+
+.caption{
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 14px;
+    color: gray;
+}
+
+.sky {
+    background-image: url("../images/22.jpg") !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #e9ecef;
+}
+
+body > .footer > .container a {
+    color: inherit; 
+    text-decoration: none;
+}

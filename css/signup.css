@@ -1,0 +1,41 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #f7f7f9 !important;
+    margin-bottom: 55px;
+}
+
+body > .container {
+    padding-top: 30px;
+}
+
+body > .container h1 {
+    margin-bottom: 20px;
+}
+
+.sky {
+    background-image: url("../images/22.jpg") !important;
+}
+
+.signup {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    background-color: #e9ecef;
+}
+
+body > .footer > .container a {
+    color: inherit; 
+    text-decoration: none;
+}
